@@ -1,0 +1,202 @@
+.clearfix {
+}
+.zg-wrap {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+.zu-main {
+    min-height: 340px;
+    padding: 25px 0 50px;
+    position: relative;
+    z-index: 2;
+}
+.zu-main-content {
+    float: left;
+    width: 100%;
+}
+.zu-main.no-sidebar .zu-main-content {
+    float: none;
+}
+.zu-main-content-inner {
+    position: relative;
+    margin: 0 328px 0 0;
+}
+.zu-main.no-sidebar .zu-main-content-inner {
+    margin: 0;
+}
+.settings-section {
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.settings-item {
+    padding: 12px 0;
+    width: 100%;
+}
+.settings-item-title {
+    width: 65px;
+    text-align: left;
+    float: left;
+}
+.settings-item-title+.settings-item-content {
+    margin-left: 90px;
+}
+.zm-settings-account .rename-tab {
+    position: relative;
+}
+.zg-form-text-input, .zg-form-select {
+    padding: 8px 10px;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) inset;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #222;
+}
+.zm-settings-account .zg-form-text-input {
+    width: 160px;
+}
+.settings-section .gray, .settings-section-desc {
+    color: #999;
+    margin: 5px 0 0;
+}
+.zm-settings-account .rename-tab .note {
+    margin-top: 8px;
+}
+.zu-edit-button {
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    -webkit-text-size-adjust: none;
+    font-weight: 400;
+    padding: 0 5px 0 2px;
+    margin: 0 0 0 2px;
+}
+.zu-edit-button-icon {
+    background-position: -118px -50px;
+    height: 12px;
+    margin-right: 4px;
+    outline: medium none;
+    overflow: hidden;
+    width: 12px;
+    vertical-align: -3px;
+}
+.settings-item-title.with-input {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+.settings-save {
+    margin-top: 25px;
+}
+.zg-btn-blue, .zg-btn-green, .zg-btn-red, .zg-btn-white, .zg-btn-disabled {
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none!important;
+    vertical-align: middle;
+    display: inline-block;
+    _display: inline!important;
+    text-align: center;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.zg-btn-blue {
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    background: #1472cf;
+    background: -webkit-linear-gradient(top,#1d7fe2,#0865c2);
+    background: linear-gradient(to bottom,#1d7fe2,#0865c2);
+    border: 1px solid #0D6EB8;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset, 0 1px 0 rgba(0,0,0,.2);
+}
+.settings-intro {
+    color: #999;
+}
+
+.settings-acount-main a {
+    color: #698ebf;
+}
+.form-basic .group {
+      margin-bottom: 1em;
+}
+.z-text-muted {
+    color: #999;
+}
+.settings-acount-main .hint-label-container {
+    margin-left: .5em;
+}
+.settings-acount-main input.digits {
+    margin-right: .5em;
+}
+
+.sprite-global-icon-select-arrow {
+    background-position: -10px -81px;
+    width: 6px;
+    height: 12px;
+}
+.Input-selectArrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+}
+.Input-selectWrapper {
+    position: relative;
+    display: inline-block;
+}
+.settings-acount-main .CountryInput-selectWrapper {
+    width: 180px;
+}
+.settings-item {
+    padding: 12px 0;
+    width: 100%;
+}
+.settings-acount-main .settings-item-content.expanded .hidden-expanded, .settings-acount-main .settings-item-content.expanded .js-expand {
+    display: none;
+}
+.settings-acount-main .settings-item-content.expanded .group-text {
+    margin-bottom: .5em;
+}
+.settings-acount-main .settings-item-content.expanded .panel {
+    display: block;
+}
+.form-basic label.error {
+    margin-left: 5px;
+    color: #c33;
+}
+.zh-footer {
+    clear: both;
+    text-align: right;
+}
+.zh-footer, .zh-footer a {
+    color: #999;
+}
+.zg-wrap {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+.zh-footer .content {
+    padding: 20px 15px;
+    border-top: 1px solid #ccc;
+}
+.zh-footer .copy {
+    float: left;
+}
+.zh-footer ul, .zh-footer li {
+    display: inline;
+}
+.zh-footer li+li:before {
+    content: '•';
+    margin-right: 3px;
+    padding: 0 3px;
+    font-family: Arial;
+    color: #bbb;
+}
+
+
+

@@ -1,0 +1,43 @@
+/*alias.jsp*/
+.clearfix {
+}
+.zu-main{
+    min-height: 340px;
+    padding: 25px 0 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.zg-wrap{
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+.settings-item {
+    padding: 12px 0;
+    width: 100%;
+}
+.zg-form-text-input, .zg-form-select {
+    padding: 8px 10px;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) inset;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #222;
+}
+
+.zm-settings-account .zg-form-text-input {
+    width: 160px;
+}
+
+.settings-item-title {
+    width: 65px;
+    text-align: left;
+    float: left;
+}

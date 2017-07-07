@@ -1,0 +1,133 @@
+#Main{
+    width: auto;
+    margin: 0 310px 0 20px;
+}
+#change{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    position: relative;
+    border: 0;
+    margin: 0 328px 0 0;
+}
+#changerun{
+    width: 940px;
+    margin: 0 auto;
+}
+.maincontent{
+    width: 100%;
+    float: left;
+}
+.main-sidebar{
+    position: relative;
+    float: left;
+    margin: 0 0 0 -270px;
+    width: 270px;
+}
+.media{
+    border-bottom-width: 3px;
+}
+.glyphicon{
+    font-size: 6px;
+}
+.meta-item{
+    margin-left: 7px;
+}
+.acolor{
+    color: #040404;
+}
+.ow-sidear{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.ow-sidear-s{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+
+}
+#headmap{
+    background-color: #ffffff;
+}
+.panel-h-s{
+    padding-left: 40px;
+}
+.ow-side-nav{
+    margin-left: -10px;
+}
+.ow-side-nav li{
+    position: relative;
+    list-style: none;
+}
+.ow-side-nav li a{
+    text-decoration: none;
+}
+.ow-side-nav-li{
+    display: block;
+    margin-bottom: 3px;
+    list-style: none;
+}
+.ow-side-nav-link{
+    position: relative;
+    padding: 0 0 0 10px;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.ow-side-nav-link .glyphicon{
+    margin-right: 2px;
+    width: 14px;
+    height: 14px;
+    vertical-align: -2px;
+}
+.ow-side-nav-link:hover{
+    color: #259;
+    background: #eff6fa;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.navbar-inverse{
+    background: linear-gradient(to bottom,#086ed5,#055db5);
+    border-bottom: 1px solid #044e97;
+    box-shadow: 0 1px 2px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    background: transparent;
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #3f51b5;
+}
+.var-color{
+    background-color: #3f51b5;
+}
+
+#random{
+    color: #3e73d8;
+}
+
+.ui-autocomplete{
+    z-index: 11111;
+    height: 100px;
+}
+
+
+/*点击btn按钮提问弹出js数据*/
+.povositon{
+    margin-top: 8px;
+}
+.modal-lg{
+    width: 500px;
+}
+
+
+

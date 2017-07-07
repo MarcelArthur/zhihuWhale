@@ -1,0 +1,17 @@
+/*alias.jsp*/
+.zu-main{
+    min-height: 340px;
+    padding: 25px 0 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.zg-wrap{
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.navbar{
+    margin-bottom: 0;
+}

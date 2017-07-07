@@ -1,0 +1,7 @@
+create user jiansheng identified by 107225;
+
+create tablespace ts_jiansheng datafile 'd:\databa\data.dbf' size 500M;
+
+alter user jiansheng default tablespace ts_jiansheng;
+
+grant dba to jiansheng;

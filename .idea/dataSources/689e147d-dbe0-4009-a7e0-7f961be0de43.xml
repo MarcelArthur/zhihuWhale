@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="JIANSHENG">
+      <ObjectId>49</ObjectId>
+      <IntrospectionTimestamp>2017-05-12.01:06:08</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-04-24.20:25:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-10.08:49:04</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="20" parent="2" name="QUESTION_TAGS">
+      <ObjectId>20090</ObjectId>
+      <CreatedTimestamp>2017-04-25.14:58:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:58:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="21" parent="2" name="TB_ALIAS">
+      <ObjectId>20066</ObjectId>
+      <CreatedTimestamp>2017-04-24.21:00:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-10.08:49:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="22" parent="2" name="TB_ANCOMMENTS">
+      <ObjectId>20556</ObjectId>
+      <CreatedTimestamp>2017-05-09.09:40:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-09.09:40:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="23" parent="2" name="TB_ANSWERS">
+      <ObjectId>20091</ObjectId>
+      <CreatedTimestamp>2017-04-25.15:36:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-03.00:27:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="TB_COMMENTS">
+      <ObjectId>20554</ObjectId>
+      <CreatedTimestamp>2017-05-09.09:39:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-09.09:39:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="25" parent="2" name="TB_QUESTION">
+      <ObjectId>20078</ObjectId>
+      <CreatedTimestamp>2017-04-25.14:48:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:48:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="26" parent="2" name="TB_TAGS">
+      <ObjectId>20081</ObjectId>
+      <CreatedTimestamp>2017-04-25.14:48:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-08.17:40:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="27" parent="2" name="TB_USER">
+      <ObjectId>20063</ObjectId>
+      <CreatedTimestamp>2017-04-24.20:25:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.11:58:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="28" parent="20" name="QID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="29" parent="20" name="TID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <foreign-key id="30" parent="20" name="SYS_C007024">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:58:48</ModifiedTimestamp>
+      <ColNames>QID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_QUESTION</RefTableName>
+      <RefKeyName>SYS_C007015</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="31" parent="20" name="SYS_C007025">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:58:48</ModifiedTimestamp>
+      <ColNames>TID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_TAGS</RefTableName>
+      <RefKeyName>SYS_C007019</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="32" parent="21" name="AID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="21" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="34" parent="21" name="ANAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="21" name="ADESCRIBE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="36" parent="21" name="SYS_C007007">
+      <ObjectId>20067</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-24.21:00:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-24.21:00:42</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>AID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="37" parent="21" name="SYS_C007008">
+      <ObjectId>20068</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-24.21:00:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-24.21:00:42</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>ANAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="38" parent="21" name="SYS_C007007">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-24.21:00:42</ModifiedTimestamp>
+      <ColNames>AID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007007</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="39" parent="21" name="SYS_C007008">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-24.21:00:42</ModifiedTimestamp>
+      <ColNames>ANAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007008</UnderlyingIndexName>
+    </key>
+    <foreign-key id="40" parent="21" name="SYS_C007009">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-24.21:00:42</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_USER</RefTableName>
+      <RefKeyName>SYS_C007003</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="41" parent="22" name="ACID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="22" name="AID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="43" parent="22" name="ANID">
+      <Position>3</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="44" parent="22" name="ANCCONTENT">
+      <Position>4</Position>
+      <DataType>VARCHAR2(600)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="22" name="ANCCDATA">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <index id="46" parent="22" name="SYS_C007093">
+      <ObjectId>20557</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-09.09:40:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-09.09:40:36</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>ACID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="22" name="SYS_C007093">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:40:36</ModifiedTimestamp>
+      <ColNames>ACID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007093</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="22" name="SYS_C007094">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:40:36</ModifiedTimestamp>
+      <ColNames>AID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_ALIAS</RefTableName>
+      <RefKeyName>SYS_C007007</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="49" parent="22" name="SYS_C007095">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:40:36</ModifiedTimestamp>
+      <ColNames>ANID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_ANSWERS</RefTableName>
+      <RefKeyName>SYS_C007027</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="50" parent="23" name="ANID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="23" name="AID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="52" parent="23" name="QID">
+      <Position>3</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="53" parent="23" name="ANDATE">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="54" parent="23" name="ANCONTENT">
+      <Position>5</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <index id="55" parent="23" name="SYS_C007027">
+      <ObjectId>20092</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-25.15:36:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.15:36:07</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>ANID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="23" name="SYS_C007027">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.15:36:07</ModifiedTimestamp>
+      <ColNames>ANID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007027</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="23" name="SYS_C007028">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.15:36:07</ModifiedTimestamp>
+      <ColNames>AID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_ALIAS</RefTableName>
+      <RefKeyName>SYS_C007007</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="58" parent="23" name="SYS_C007029">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.15:36:07</ModifiedTimestamp>
+      <ColNames>QID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_QUESTION</RefTableName>
+      <RefKeyName>SYS_C007015</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="59" parent="24" name="CID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="24" name="AID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="61" parent="24" name="QID">
+      <Position>3</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="62" parent="24" name="CCONTENT">
+      <Position>4</Position>
+      <DataType>VARCHAR2(600)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="24" name="CDATA">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <index id="64" parent="24" name="SYS_C007089">
+      <ObjectId>20555</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-09.09:39:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-09.09:39:36</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>CID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="24" name="SYS_C007089">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:39:36</ModifiedTimestamp>
+      <ColNames>CID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007089</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="66" parent="24" name="SYS_C007090">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:39:36</ModifiedTimestamp>
+      <ColNames>AID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_ALIAS</RefTableName>
+      <RefKeyName>SYS_C007007</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="67" parent="24" name="SYS_C007091">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-05-09.09:39:36</ModifiedTimestamp>
+      <ColNames>QID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_QUESTION</RefTableName>
+      <RefKeyName>SYS_C007015</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="68" parent="25" name="QID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="25" name="AID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+    </column>
+    <column id="70" parent="25" name="QTITLE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(153)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="25" name="QDESCRIBE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(300)|0</DataType>
+    </column>
+    <index id="72" parent="25" name="SYS_C007015">
+      <ObjectId>20079</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-25.14:48:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:48:13</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>QID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="73" parent="25" name="SYS_C007016">
+      <ObjectId>20080</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-25.14:48:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:48:13</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>QTITLE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="25" name="SYS_C007015">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:48:13</ModifiedTimestamp>
+      <ColNames>QID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007015</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="75" parent="25" name="SYS_C007016">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:48:13</ModifiedTimestamp>
+      <ColNames>QTITLE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007016</UnderlyingIndexName>
+    </key>
+    <foreign-key id="76" parent="25" name="SYS_C007017">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:48:14</ModifiedTimestamp>
+      <ColNames>AID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TB_ALIAS</RefTableName>
+      <RefKeyName>SYS_C007007</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="77" parent="26" name="TID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="26" name="TNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="79" parent="26" name="SYS_C007019">
+      <ObjectId>20082</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-25.14:48:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:48:41</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>TID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="80" parent="26" name="SYS_C007020">
+      <ObjectId>20083</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-25.14:48:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-25.14:48:41</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>TNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="26" name="SYS_C007019">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:48:41</ModifiedTimestamp>
+      <ColNames>TID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007019</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="82" parent="26" name="SYS_C007020">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-25.14:48:41</ModifiedTimestamp>
+      <ColNames>TNAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007020</UnderlyingIndexName>
+    </key>
+    <column id="83" parent="27" name="USERID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="27" name="UACCOUNT">
+      <Position>2</Position>
+      <DataType>VARCHAR2(24)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="27" name="UPWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="27" name="STATUS">
+      <Position>4</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="87" parent="27" name="ANTHORITY">
+      <Position>5</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="88" parent="27" name="UDATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <index id="89" parent="27" name="SYS_C007003">
+      <ObjectId>20064</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-24.20:25:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-24.20:25:34</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>USERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="90" parent="27" name="SYS_C007004">
+      <ObjectId>20065</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-04-24.20:25:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-24.20:25:34</ModifiedTimestamp>
+      <TablespaceName>TS_JIANSHENG</TablespaceName>
+      <ColNames>UACCOUNT</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="27" name="SYS_C007003">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-24.20:25:34</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007003</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="92" parent="27" name="SYS_C007004">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-04-24.20:25:34</ModifiedTimestamp>
+      <ColNames>UACCOUNT</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007004</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
