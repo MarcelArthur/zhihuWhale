@@ -30,6 +30,19 @@
 
 - 用户权限配置：
 		用户分为游客、普通用户、管理员用户三种角色。管理员用户可以管理普通用户的登录及发帖权限。同时将用户的发言暂时屏蔽。
+		
+# 效果截图
+
+![登录页](http://osxkowvgj.bkt.clouddn.com/whalelogin.png)
+
+![主页](http://osxkowvgj.bkt.clouddn.com/index.png)
+
+![个人主页](http://osxkowvgj.bkt.clouddn.com/person.png)
+
+![管理页](http://osxkowvgj.bkt.clouddn.com/manage.png)
+
+
+优化下数据库以后，可能上线以供参考
 
 # 以上
 
