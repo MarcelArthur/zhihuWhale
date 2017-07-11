@@ -34,12 +34,16 @@
 # 效果截图
 
 ![登录页](http://osxkowvgj.bkt.clouddn.com/whalelogin.png)
+<h6><center>登录页</center></h6>
 
 ![主页](http://osxkowvgj.bkt.clouddn.com/index.png)
+<h6><center>主页</center></h6>
 
 ![个人主页](http://osxkowvgj.bkt.clouddn.com/person.png)
+<h6><center>个人详情页</center></h6>
 
 ![管理页](http://osxkowvgj.bkt.clouddn.com/manage.png)
+<h6><center>管理页</center></h6>
 
 
 优化下数据库以后，可能上线以供参考
